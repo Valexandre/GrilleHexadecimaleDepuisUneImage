@@ -6,7 +6,7 @@ library(imager)
 library(patchwork)
 
 #On importe l'image via jpeg et imager.
-URL1<-"tableau1.jpg"
+URL1<-"tableau4.jpg"
 tableau1jpeg <- readJPEG(URL1)
 tableau1im <- load.image(URL1)
 
