@@ -85,11 +85,11 @@ dev.off()
 
 
 #Image plus large que haute : On sort le tout dans un seul jpeg.
-jpeg(filename = "Carnets.jpg", width=dim(tableau1im)[1], height = (3*dim(tableau1im)[2]), quality=100, units = "px",type="cairo")
+jpeg(filename = "Extracts.jpg", width=dim(tableau1im)[1], height = (3*dim(tableau1im)[2]), quality=100, units = "px",type="cairo")
 IMTableau1+Points+TexteCouleurs+plot_layout(ncol=1)
 dev.off()  
 
 #Image plus haute que large : On sort le tout dans un seul jpeg.
-jpeg(filename = "Carnets.jpg", width=(3*dim(tableau1im)[1]), height = dim(tableau1im)[2], quality=100, units = "px",type="cairo")
+jpeg(filename = "Extracts.jpg", width=(3*dim(tableau1im)[1]), height = dim(tableau1im)[2], quality=100, units = "px",type="cairo")
 IMTableau1+Points+TexteCouleurs+plot_layout(ncol=3)
 dev.off()  
