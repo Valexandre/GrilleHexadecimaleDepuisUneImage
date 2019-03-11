@@ -1,4 +1,4 @@
-# GrilleHexadecimaleDepuisUneImage
+# Grille hexadecimale depuis une image
 Récupération de couleurs d'une image
 
 
